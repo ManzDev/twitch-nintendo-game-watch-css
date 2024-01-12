@@ -462,7 +462,7 @@
               #fff6 115deg 140deg,
               transparent 215deg 360deg
             );
-          box-shadow: 0 -1px 1px #fff inset;
+          box-shadow: 0 -1px 1px #666 inset;
           position: absolute;
         }
 
