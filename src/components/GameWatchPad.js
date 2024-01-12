@@ -8,6 +8,7 @@ class GameWatchPad extends HTMLElement {
     return /* css */`
       :host {
         transform: translateY(-30px);
+        user-select: none;
       }
 
       .container {
