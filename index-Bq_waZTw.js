@@ -376,6 +376,7 @@
     </div>`}}customElements.define("game-watch-screen",e);class i extends HTMLElement{constructor(){super(),this.attachShadow({mode:"open"})}static get styles(){return`
       :host {
         transform: translateY(-30px);
+        user-select: none;
       }
 
       .container {
