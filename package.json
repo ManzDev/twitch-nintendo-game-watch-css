@@ -1,0 +1,22 @@
+{
+  "name": "twitch-nintendo-game-watch-css",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-manzdev": "^0.0.7",
+    "gh-pages": "^6.1.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-manzdev": "^0.0.17",
+    "vite": "^5.0.8"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
