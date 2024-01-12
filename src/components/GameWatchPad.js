@@ -77,24 +77,19 @@ class GameWatchPad extends HTMLElement {
         place-items: center;
 
         & .gap {
-          --size: 25px;
+          --size: 30px;
 
           width: var(--size);
           height: var(--size);
           border-radius: 50%;
-          background: #111;
-          background-image:
-            radial-gradient(#111, transparent, #111),
-            radial-gradient(
-              #111,
-              transparent
-            ),
-            conic-gradient(
-              transparent 0 55deg,
-              #fff6 115deg 140deg,
-              transparent 215deg 360deg
-            );
-          box-shadow: 0 -1px 1px #fff inset;
+          background:
+            radial-gradient(70% 70% at 50% 50%, #0e0e0e 35%, #0000 60%),
+            radial-gradient(50% 50% at 50% 45%, #9e9e9e 25%, #0e0e0e, #0000),
+            radial-gradient(circle at 50% 0, #0e0e0e 65%, #0000),
+            radial-gradient(80% 80% at 48% 48%, #bdbdbd 25% 50%, #0000 60%),
+            linear-gradient(#0000, #0e0e0e 0%);
+          border-top: calc(var(--size) * 0.04) solid #515151;
+          transform: rotate(-45deg);
           position: absolute;
         }
 
