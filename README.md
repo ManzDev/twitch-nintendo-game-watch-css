@@ -19,7 +19,7 @@ A **Nintendo Game & Watch** console with **Pure CSS** (without images), created 
   - Pretendo
   - Walkway
 - ✨ Textures with CSS gradients
-- ✨ Use [SVG](https://lenguajehtml.com/svg/) for LCD Screen (*Thanks BlurSoul_*!)
+- ✨ Use [SVG](https://lenguajehtml.com/svg/) for LCD Screen (*Thanks [BlurSoul_](https://github.com/BlurSoulx)*!)
 
 ![Nintendo Game & Watch with Pure CSS](nintendo-game-watch-css.png)
 
